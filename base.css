@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(4, 63, 63);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 20px;
+}
+.footer {
+    background-color:  rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+.logotipo {
+    float: left;
+    height: 90px;
+    padding: 20px;
+}
+.titulo {
+    padding: 30px;
+    font-size: 30px;
+    color: #f1f1f1;
+}
+.footer-contact {
+    padding: 30px;
+    color: #f1f1f1;
+}
+.cat-dog {
+    height: 200px;
+}
+.petcare {
+    text-align: center;
+}
